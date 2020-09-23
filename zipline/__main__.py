@@ -48,7 +48,7 @@ except NameError:
 )
 @click.pass_context
 def main(ctx, extension, strict_extensions, default_extension, x):
-    """Top level zipline entry point.
+    """Top level zipline entry point. jy-140
     """
     # install a logbook handler before performing any other operations
     logbook.StderrHandler().push_application()
